@@ -16,7 +16,6 @@ AppAsset::register($this);
     <?=Html::csrfMetaTags() ?> 
     <title>Тандем - <?=Html::encode($this->title) ?></title>
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 <?php $this->head() ?> 
 </head> 
