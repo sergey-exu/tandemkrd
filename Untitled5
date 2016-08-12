@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="en-US" class="js flexbox flexboxlegacy no-touch rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kalium Freelancer – Creative Theme for Professionals</title>
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Portfolio">
+	<meta property="og:url" content="http://demo.kaliumtheme.com/freelancer/">
+	<meta property="og:site_name" content="Kalium Freelancer">
+	<meta property="og:description" content="My everyday work is presented here, for more check out my portfolio on behance.">
+	<script id="twitter-wjs" src="./Kalium Freelancer – Creative Theme for Professionals_files/widgets.js"></script>
+	<script>
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
+			"ext": ".png",
+			"source": {
+				"concatemoji": "http:\/\/cdn.demo.kaliumtheme.com\/freelancer\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"
+			}
+		};
+		! function(a, b, c) {
+			function d(a) {
+				var c, d, e, f = b.createElement("canvas"),
+					g = f.getContext && f.getContext("2d"),
+					h = String.fromCharCode;
+				if (!g || !g.fillText) return !1;
+				switch (g.textBaseline = "top", g.font = "600 32px Arial", a) {
+					case "flag":
+						return g.fillText(h(55356, 56806, 55356, 56826), 0, 0), f.toDataURL().length > 3e3;
+					case "diversity":
+						return g.fillText(h(55356, 57221), 0, 0), c = g.getImageData(16, 16, 1, 1).data, d = c[0] + "," + c[1] + "," + c[2] + "," + c[3], g.fillText(h(55356, 57221, 55356, 57343), 0, 0), c = g.getImageData(16, 16, 1, 1).data, e = c[0] + "," + c[1] + "," + c[2] + "," + c[3], d !== e;
+					case "simple":
+						return g.fillText(h(55357, 56835), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0];
+					case "unicode8":
+						return g.fillText(h(55356, 57135), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0]
+				}
+				return !1
+			}
+
+			function e(a) {
+				var c = b.createElement("script");
+				c.src = a, c., b.getElementsByTagName("head")[0].appendChild(c)
+			}
+			var f, g, h, i;
+			for (i = Array("simple", "flag", "unicode8", "diversity"), c.supports = {
+					everything: !0,
+					everythingExceptFlag: !0
+				}, h = 0; h < i.length; h++) c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]);
+			c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+				c.DOMReady = !0
+			}, c.supports.everything || (g = function() {
+				c.readyCallback()
+			}, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function() {
+				"complete" === b.readyState && c.readyCallback()
+			})), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+		}(window, document, window._wpemojiSettings);
+	</script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/wp-emoji-release.min.js"></script>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet" id="rotatingtweets-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="bootstrap-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" id="main-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/main.css" type="text/css" media="all">
+	<link rel="stylesheet" id="font-awesome-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/font-awesome.css" type="text/css" media="all">
+	<link rel="stylesheet" id="font-flaticons-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/flaticon.css" type="text/css" media="all">
+	<link rel="stylesheet" id="font-lineaicons-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/linea_iconfont.css" type="text/css" media="all">
+	<link rel="stylesheet" id="style-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/style(1).css" type="text/css" media="all">
+	<link rel="stylesheet" id="custom-skin-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/custom-skin.css" type="text/css" media="all">
+	<link rel="stylesheet" id="primary-font-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/css" type="text/css" media="all">
+	<link rel="stylesheet" id="secondary-font-css" href="./Kalium Freelancer – Creative Theme for Professionals_files/css(1)" type="text/css" media="all">
+	<style>
+		body {
+			font-family: 'Questrial', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.single-blog-holder .comments-holder .comment-holder .commenter-details .name a {
+			font-family: 'Questrial', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.message-form .send {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.single-blog-holder .blog-author-holder .author-name {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.single-blog-holder .comments-holder .comment-holder .commenter-details .name {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.single-blog-holder .post-controls .next-post strong,
+		.single-blog-holder .post-controls .prev-post strong {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.single-portfolio-holder .portfolio-big-navigation a {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.main-header.menu-type-standard-menu .standard-menu-container {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.main-header.menu-type-standard-menu .standard-menu-container div.menu> ul ul {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+		
+		.header-logo.logo-text,
+		.search-input-live-type,
+		.blog-sidebar .sidebar-box-holder .product_list_widget li .product-details {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			text-transform: none
+		}
+	</style>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/jquery.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/jquery-migrate.min.js"></script>
+	<link rel="shortcut icon" href="http://cdn.demo.kaliumtheme.com/freelancer/wp-content/uploads/2015/11/favicon.png">
+	<meta name="theme-color" content="#e09a0e">
+	<style id="theme-custom-css">
+		.gmnoprint {
+			display: none;
+		}
+		
+		.top-menu-container .top-menu ul li a:after {
+			background-color: transparent;
+		}
+		
+		.wpb_wrapper .section-title {
+			text-align: center;
+		}
+		
+		.section-title h1,
+		.section-title h2,
+		.section-title h3 {
+			margin-top: 60px !important;
+		}
+		
+		.message-form .form-group .placeholder {
+			padding-bottom: 1px;
+		}
+		
+		.wrapper {
+			background: url(http://demo.kaliumtheme.com/freelancer/wp-content/uploads/2015/04/pattern-29.jpg);
+		}
+	</style>
+	<style type="text/css">
+		.recentcomments a {
+			display: inline !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+	</style>
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="http://demo.kaliumtheme.com/freelancer/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+	<!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://demo.kaliumtheme.com/freelancer/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><noscript>&lt;style type="text/css"&gt; .wpb_animate_when_almost_visible { opacity: 1; }&lt;/style&gt;</noscript>
+</head>
+
+<body class="home page page-id-3283 page-template page-template-portfolio page-template-portfolio-php has-page-borders body-lg-skin-kalium-default wpb-js-composer js-comp-ver-4.12 vc_responsive">
+	<style>
+		.page-border> .top-border,
+		.page-border> .right-border,
+		.page-border> .bottom-border,
+		.page-border> .left-border {
+			padding: 11px;
+			background: #ededed !important;
+		}
+	</style>
+	<style>
+		body> .wrapper,
+		.top-menu-container,
+		.portfolio-description-container,
+		.single-portfolio-holder .portfolio-navigation,
+		.portfolio-slider-nav,
+		.main-footer {
+			margin: 22px;
+		}
+	</style>
+	<style>
+		@media screen and (min-width: 992px) {
+			.main-footer.fixed-footer {
+				left: 22px;
+				right: 22px;
+			}
+		}
+	</style>
+	<style>
+		.main-header.fullwidth-header,
+		.nivo-lightbox-theme-default .nivo-lightbox-close,
+		.portfolio-container-and-title.full-width-portfolio.portfolio-loop-layout-type-1 {
+			margin-left: 22px;
+			margin-right: 22px;
+		}
+	</style>
+	<style>
+		.nivo-lightbox-theme-default .nivo-lightbox-close {
+			margin-top: 22px;
+			margin-top: 22px;
+		}
+	</style>
+	<style>
+		body {
+			height: calc(100% - 44px);
+			min-height: calc(100% - 44px);
+		}
+	</style>
+	<div class="page-border" data-wow-duration="1s" data-wow-delay="0.2s">
+		<div class="top-border"></div>
+		<div class="right-border"></div>
+		<div class="bottom-border"></div>
+		<div class="left-border"></div>
+	</div>
+	<div class="mobile-menu-wrapper">
+		<div class="mobile-menu-container ps-container ps-theme-default" data-ps-id="9e94c223-7bfb-252d-abfc-50631f920b1d">
+			<ul id="menu-main-menu" class="menu">
+				<li id="menu-item-3333" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3333"><a href="http://demo.kaliumtheme.com/freelancer/">Works.</a></li>
+				<li id="menu-item-2329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2329"><a href="http://demo.kaliumtheme.com/freelancer/about-me/">Biography.</a></li>
+				<li id="menu-item-3329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3329"><a href="http://demo.kaliumtheme.com/freelancer/blog/">Thoughts.</a>
+					<ul class="sub-menu">
+						<li id="menu-item-3377" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3377"><a href="http://demo.kaliumtheme.com/freelancer/#">Sub one</a></li>
+						<li id="menu-item-3378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3378"><a href="http://demo.kaliumtheme.com/freelancer/#">Sub two</a></li>
+					</ul>
+				</li>
+				<li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2333"><a href="http://demo.kaliumtheme.com/freelancer/contact-3/">Contact.</a></li>
+				<li id="menu-item-3403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3403"><a target="_blank" href="http://themeforest.net/item/kalium-creative-theme-for-professionals/10860525?ref=Laborator">Buy Now!</a></li>
+			</ul>
+			<form role="search" method="get" class="search-form" action="http://demo.kaliumtheme.com/freelancer/">
+				<input type="search" class="search-field" placeholder="Search site..." value="" name="s" id="search_mobile_inp">
+				<label for="search_mobile_inp">
+				<i class="fa fa-search"></i>
+			</label>
+				<input type="submit" class="search-submit" value="Go">
+			</form>
+			<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
+				<div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+			</div>
+			<div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
+				<div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-menu-overlay"></div>
+	<div class="top-menu-container menu-type-top-menu menu-skin-dark">
+		<div class="container">
+			<div class="row row-table row-table-middle">
+
+				<div class="col-sm-4">
+					<nav class="top-menu menu-row-items-1">
+						<ul id="menu-main-menu-1" class="menu">
+							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3333"><a href="http://demo.kaliumtheme.com/freelancer/">Works.</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2329"><a href="http://demo.kaliumtheme.com/freelancer/about-me/">Biography.</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3329"><a href="http://demo.kaliumtheme.com/freelancer/blog/">Thoughts.</a>
+								<ul class="sub-menu" style="left: 106px; margin-top: -15px;">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3377"><a href="http://demo.kaliumtheme.com/freelancer/#">Sub one</a></li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3378"><a href="http://demo.kaliumtheme.com/freelancer/#">Sub two</a></li>
+								</ul>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2333"><a href="http://demo.kaliumtheme.com/freelancer/contact-3/">Contact.</a></li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3403"><a target="_blank" href="http://themeforest.net/item/kalium-creative-theme-for-professionals/10860525?ref=Laborator">Buy Now!</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-sm-8">
+					<div class="row blog-sidebar">
+						<div class="col-sm-6">
+							<div class="sidebar-box-holder wp-widget rotatingtweets_widget-4 widget_rotatingtweets_widget">
+								<h3 class="sidebar-entry-title">Tweets.</h3>
+								<div class="rotatingtweets rotatingtweets_format_0" id="rotatingtweets_4000_fade_1000_57a0594aa0b32" data-cycle-auto-height="calc" data-cycle-fx="fade" data-cycle-pause-on-hover="true" data-cycle-timeout="4000" data-cycle-speed="1000" data-cycle-easing="swing"
+									data-cycle-slides="div.rotatingtweet" data-cycle-log="false" style="position: relative;">
+									<div class="rotatingtweet cycle-slide cycle-sentinel" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden;">
+										<p class="rtw_main" style="visibility: hidden;">We have released Kalium 1.9.3 which now fully support <a href="https://twitter.com/intent/user?user_id=3250053558" title="WooCommerce" lang="en" target="_blank" style="visibility: hidden;">@WooCommerce</a> 2.6.x, also there are some new features
+											and bug fixes :) <a href="https://twitter.com/intent/user?user_id=2508601772" title="Envato Market" lang="en" target="_blank" style="visibility: hidden;">@EnvatoMarket</a></p>
+										<p class="rtw_meta" style="visibility: hidden;"><a target="_blank" href="https://twitter.com/twitterapi/status/748846453729230848" style="visibility: hidden;">About a month ago</a></p>
+									</div>
+									<div class="rotatingtweet cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 96; opacity: 0; display: block; visibility: hidden;">
+										<p class="rtw_main">We have released Kalium 1.9.3 which now fully support <a href="https://twitter.com/intent/user?user_id=3250053558" title="WooCommerce" lang="en" target="_blank">@WooCommerce</a> 2.6.x, also there are some new features and bug fixes :) <a href="https://twitter.com/intent/user?user_id=2508601772"
+												title="Envato Market" lang="en" target="_blank">@EnvatoMarket</a></p>
+										<p class="rtw_meta"><a target="_blank" href="https://twitter.com/twitterapi/status/748846453729230848">About a month ago</a></p>
+									</div>
+									<div class="rotatingtweet cycle-slide" style="display: block; position: absolute; top: 0px; left: 0px; z-index: 95; visibility: hidden; opacity: 0;">
+										<p class="rtw_main">Laboorator becomes 58th Power Elite Author on Envato, check out our interview. <a href="https://t.co/UDzk4WIMUW" title="http://fb.me/7ZZlfJ3zd" target="_blank" class="rtw_url_link">fb.me/7ZZlfJ3zd</a></p>
+										<p class="rtw_meta"><a target="_blank" href="https://twitter.com/twitterapi/status/742991409641357313">About 2 months ago</a></p>
+									</div>
+									<div class="rotatingtweet cycle-slide" style="display: block; position: absolute; top: 0px; left: 0px; z-index: 100; visibility: hidden; opacity: 0;">
+										<p class="rtw_main">An interview with Power Elite, Laborator <a href="https://t.co/yuiokUChsY" title="http://community.envato.com/interview-power-elite-laborator/" target="_blank" class="rtw_url_link">community.envato.com…</a> <a href="https://twitter.com/intent/user?user_id=16582191"
+												title="Envato" lang="en" target="_blank">@envato</a> <a href="https://twitter.com/intent/user?user_id=2508601772" title="Envato Market" lang="en" target="_blank">@EnvatoMarket</a></p>
+										<p class="rtw_meta"><a target="_blank" href="https://twitter.com/twitterapi/status/742989736013398016">About 2 months ago</a></p>
+									</div>
+									<div class="rotatingtweet cycle-slide cycle-slide-active" style="display: block; position: absolute; top: 0px; left: 0px; z-index: 99; visibility: visible; opacity: 1;">
+										<p class="rtw_main">We are happy to announce that Kalium theme is officially compatible with WPML – <a href="https://t.co/1T2AVQ0Tzv" title="https://wpml.org/theme/kalium/" target="_blank" class="rtw_url_link">wpml.org/theme/kaliu…</a></p>
+										<p class="rtw_meta"><a target="_blank" href="https://twitter.com/twitterapi/status/742319794976919552">About 2 months ago</a></p>
+									</div>
+									<div class="rotatingtweet cycle-slide" style="display: block; position: absolute; top: 0px; left: 0px; z-index: 97; visibility: hidden; opacity: 0;">
+										<p class="rtw_main">Oxygen WooCommerce WordPress Theme is used by YouTuber Mic Bergsma’s for his website. With 350k subscribers <a href="https://twitter.com/intent/user?user_id=16582191" title="Envato" lang="en" target="_blank">@envato</a> <a href="https://t.co/RE2ToosJtj"
+												title="http://twitter.com/thelaborator/status/741740901236629504/photo/1" target="_blank" class="rtw_media_link">pic.twitter.com/RE2T…</a></p>
+										<p class="rtw_meta"><a target="_blank" href="https://twitter.com/twitterapi/status/741740901236629504">About 2 months ago</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sidebar-box-holder wp-widget text-3 widget_text">
+								<h3 class="sidebar-entry-title">Hire me.</h3>
+								<div class="textwidget">
+									<p>Like my work? Arrange a meeting with me at my office, I'll be happy to work with you!<br>
+										<a href="mailto:someone@example.com?Subject=I%20want%20to%20hire%20you!">work@kalium.com</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper" id="main-wrapper" style="margin-top: 0px;">
+
+		<header class="main-header menu-type-top-menu" style="top: 0px;">
+			<div class="container">
+				<div class="logo-and-menu-container">
+					<div class="logo-column">
+						<style>
+							.logo-image {
+								width: 43px
+							}
+						</style>
+						<a href="http://demo.kaliumtheme.com/freelancer" class="header-logo logo-image">
+							<img src="./Kalium Freelancer – Creative Theme for Professionals_files/dp.png" width="87" height="77" class="main-logo" alt="kalium-freelancer">
+						</a>
+					</div>
+					<div class="menu-column">
+						<a class="menu-bar menu-skin-dark" href="http://demo.kaliumtheme.com/freelancer/#">
+							<span class="ham"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<script>
+			var headerOptions = {
+				"stickyMenu": false,
+				"currentMenuSkin": "menu-skin-dark"
+			};
+		</script>
+		<div id="portfolio-1-container" class="container portfolio-container-and-title portfolio-loop-layout-type-1">
+			<div class="portfolio-title-holder">
+				<div class="pt-column">
+					<div class="section-title no-bottom-margin">
+						<h1>Portfolio</h1>
+						<p>My everyday work is presented here,<br> for more check out my portfolio on behance.</p>
+					</div>
+				</div>
+				<div class="pt-column">
+					<div class="product-filter">
+						<ul class="portfolio-root-categories">
+							<li class="portfolio-category-all active">
+								<a href="http://demo.kaliumtheme.com/freelancer/" data-term="*">All</a>
+							</li>
+							<li class="portfolio-category-item portfolio-category-furniture">
+								<a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/furniture/" data-term="furniture">Furniture</a>
+							</li>
+							<li class="portfolio-category-item portfolio-category-logo">
+								<a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/logo/" data-term="logo">Logo</a>
+							</li>
+							<li class="portfolio-category-item portfolio-category-people">
+								<a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/people/" data-term="people">People</a>
+							</li>
+							<li class="portfolio-category-item portfolio-category-print">
+								<a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/print/" data-term="print">Print</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+			<div class="page-container">
+				<div class="row">
+
+
+					<div id="portfolio-1" class="portfolio-holder portfolio-type-1 sort-by-js" style="position: relative; height: 5382.4px;">
+						<style>
+							.portfolio-holder .post-2125 .item-box .on-hover {
+								background-color: #d1d7e4 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2125 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-people" data-portfolio-item-id="2125" data-terms="people" style="position: absolute; left: 0px; top: 0px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/album-covers/" class="item-link">
+										<style>
+											.arel-1 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-1">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/8tracks_covers01_905-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/album-covers/" class="item-link">
+					Album Covers				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/people/" data-term="people">
+			People		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2124 .item-box .on-hover {
+								background-color: #252428 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-5 with-padding w4 animated-eye-icon post-2124 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print" data-portfolio-item-id="2124" data-terms="print" style="position: absolute; left: 390px; top: 0px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/adestra/" class="item-link">
+										<style>
+											.arel-2 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-2">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/c0b6ab27338818c12788d0e4e870c54e-1-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/adestra/" class="item-link">
+					Adestra				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2123 .item-box .on-hover {
+								background-color: #d7d7d9 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2123 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture" data-portfolio-item-id="2123" data-terms="furniture"
+							style="position: absolute; left: 780px; top: 0px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/desk-concept/" class="item-link">
+										<style>
+											.arel-3 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-3">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/b41864d679e4c077fda190149299e47d-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/desk-concept/" class="item-link">
+					Desk Concept				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2110 .item-box .on-hover {
+								background-color: #c8595a !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2110 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-logo" data-portfolio-item-id="2110" data-terms="logo" style="position: absolute; left: 0px; top: 414px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/multi-color/" class="item-link">
+										<style>
+											.arel-4 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-4">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/f96dbcad2181aa749eecf0dbf4dc4fa5-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/multi-color/" class="item-link">
+					Multi Color				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/logo/" data-term="logo">
+			Logo		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2108 .item-box .on-hover {
+								background-color: #eebf91 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-5 with-padding w4 animated-eye-icon post-2108 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture" data-portfolio-item-id="2108" data-terms="furniture"
+							style="position: absolute; left: 390px; top: 414px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/verein/" class="item-link">
+										<style>
+											.arel-5 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-5">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/Verein_05-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/verein/" class="item-link">
+					Verein				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2109 .item-box .on-hover {
+								background-color: #e9dfc8 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-3 with-padding w4 animated-eye-icon post-2109 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print" data-portfolio-item-id="2109" data-terms="print" style="position: absolute; left: 780px; top: 414px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/ethics-for-design/" class="item-link">
+										<style>
+											.arel-6 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-6">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/cd5c02ef5e64cbd6e02f4689da59c33c-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/ethics-for-design/" class="item-link">
+					Ethics for Design				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2122 .item-box .on-hover {
+								background-color: #e2e2e4 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-4 with-padding w4 animated-eye-icon post-2122 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print" data-portfolio-item-id="2122" data-terms="print" style="position: absolute; left: 0px; top: 828px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/cloud-inc/" class="item-link">
+										<style>
+											.arel-7 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-7">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/654471f97a275526fc588440b0a3d878-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/cloud-inc/" class="item-link">
+					Cloud Inc				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2121 .item-box .on-hover {
+								background-color: #beab98 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2121 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print" data-portfolio-item-id="2121" data-terms="print" style="position: absolute; left: 390px; top: 828px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/capricho/" class="item-link">
+										<style>
+											.arel-8 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-8">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/8994134c7371c02d5313c47fb6434f60-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/capricho/" class="item-link">
+					Capricho				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<style>
+							.portfolio-holder .post-2120 .item-box .on-hover {
+								background-color: #555555 !important;
+							}
+						</style>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2120 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture" data-portfolio-item-id="2120" data-terms="furniture"
+							style="position: absolute; left: 780px; top: 828px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/afteroom-chair/" class="item-link">
+										<style>
+											.arel-9 {
+												padding-top: 83.20610687% !important;
+											}
+										</style> <span class="image-placeholder arel-9">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/Afteroom_Chair_Location_01_1024x1024-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/afteroom-chair/" class="item-link">
+					Afteroom Chair				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2119 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2119" data-terms="print" style="position: absolute; left: 0px; top: 1242px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/piece-of-cake/" class="item-link">
+										<span class="image-placeholder arel-1-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/04_o-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/piece-of-cake/" class="item-link">
+					Piece of Cake				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/piece-of-cake/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-3 with-padding w4 animated-eye-icon post-2118 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2118" data-terms="print" style="position: absolute; left: 390px; top: 1242px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/bergenfield/" class="item-link">
+										<span class="image-placeholder arel-2-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/8064b807a590842a8d6a01bb516f92fd-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/bergenfield/" class="item-link">
+					Bergenfield				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/bergenfield/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2117 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2117" data-terms="furniture" style="position: absolute; left: 780px; top: 1242px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/howdy-owls/" class="item-link">
+										<span class="image-placeholder arel-3-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/StokkeAustad-Owls_large01-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/howdy-owls/" class="item-link">
+					Howdy Owls				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/howdy-owls/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2116 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2116" data-terms="furniture" style="position: absolute; left: 0px; top: 1656px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/back-to-basic/" class="item-link">
+										<span class="image-placeholder arel-4-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/StokkeAustad-BackToBasic_square01-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/back-to-basic/" class="item-link">
+					Back To Basic				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/back-to-basic/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2115 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2115" data-terms="furniture" style="position: absolute; left: 390px; top: 1656px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/90s-package/" class="item-link">
+										<span class="image-placeholder arel-5-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/c7e5ef9b59920b76c08e8dbe565d7363-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/90s-package/" class="item-link">
+					90s Package				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/90s-package/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2114 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2114" data-terms="furniture" style="position: absolute; left: 780px; top: 1656px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/attractive/" class="item-link">
+										<span class="image-placeholder arel-6-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/f_08-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/attractive/" class="item-link">
+					Attractive				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/attractive/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-4 with-padding w4 animated-eye-icon post-2113 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-people is-appended" data-portfolio-item-id="2113" data-terms="people" style="position: absolute; left: 0px; top: 2070px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/random-people-quotes/" class="item-link">
+										<span class="image-placeholder arel-7-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/7_1400x920-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/random-people-quotes/" class="item-link">
+					Random People Quotes Project				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/random-people-quotes/portfolio-category/people/" data-term="people">
+			People		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2111 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-logo is-appended" data-portfolio-item-id="2111" data-terms="logo" style="position: absolute; left: 390px; top: 2070px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/logos/" class="item-link">
+										<span class="image-placeholder arel-8-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/c5ad1949c37125baaa93683fc77af1d9-655x545.png">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/logos/" class="item-link">
+					Logos				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/logos/portfolio-category/logo/" data-term="logo">
+			Logo		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-3 with-padding w4 animated-eye-icon post-2107 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2107" data-terms="print" style="position: absolute; left: 780px; top: 2070px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/lupa/" class="item-link">
+										<span class="image-placeholder arel-9-1470139135">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/lupa4-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/lupa/" class="item-link">
+					Lupa				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/lupa/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2106 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2106" data-terms="print" style="position: absolute; left: 0px; top: 2484px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/raincup/" class="item-link">
+										<span class="image-placeholder arel-1-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/Raincup1-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/raincup/" class="item-link">
+					Raincup				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/raincup/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2105 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2105" data-terms="print" style="position: absolute; left: 390px; top: 2484px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/web-press/" class="item-link">
+										<span class="image-placeholder arel-2-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/webpress-cover-2000-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/web-press/" class="item-link">
+					Web Press				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/web-press/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2104 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2104" data-terms="print" style="position: absolute; left: 780px; top: 2484px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/too-good-to-be-buried/" class="item-link">
+										<span class="image-placeholder arel-3-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/bury-stack-2000-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/too-good-to-be-buried/" class="item-link">
+					Too Good To Be Buried				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/too-good-to-be-buried/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2103 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2103" data-terms="print" style="position: absolute; left: 0px; top: 2898px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/the-manual/" class="item-link">
+										<span class="image-placeholder arel-4-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/manual-05-splay-2000-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/the-manual/" class="item-link">
+					The Manual				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/the-manual/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-3 with-padding w4 animated-eye-icon post-2102 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-people is-appended" data-portfolio-item-id="2102" data-terms="people" style="position: absolute; left: 390px; top: 2898px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/tgd-mag/" class="item-link">
+										<span class="image-placeholder arel-5-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/tgdvol1-01-cover-2000-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/tgd-mag/" class="item-link">
+					TGD Mag				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/tgd-mag/portfolio-category/people/" data-term="people">
+			People		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2100 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2100" data-terms="furniture" style="position: absolute; left: 780px; top: 2898px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/afira-quartet/" class="item-link">
+										<span class="image-placeholder arel-6-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/05_afiarawebsite_rehersalshot-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/afira-quartet/" class="item-link">
+					Afira Quartet				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/afira-quartet/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-3 with-padding w4 animated-eye-icon post-2099 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-people is-appended" data-portfolio-item-id="2099" data-terms="people" style="position: absolute; left: 0px; top: 3312px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/toronto-maps/" class="item-link">
+										<span class="image-placeholder arel-7-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/06_tungpromo_envelope-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/toronto-maps/" class="item-link">
+					Toronto Maps				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/toronto-maps/portfolio-category/people/" data-term="people">
+			People		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2098 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2098" data-terms="print" style="position: absolute; left: 390px; top: 3312px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/ryuji-mitani/" class="item-link">
+										<span class="image-placeholder arel-8-1470139142">
+		<img width="1400" height="875" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/04_mitaniposter.gif">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/ryuji-mitani/" class="item-link">
+					Ryuji Mitani				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/ryuji-mitani/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-5 with-padding w4 animated-eye-icon post-2097 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2097" data-terms="print" style="position: absolute; left: 780px; top: 3312px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/mjo%cc%88lk-books/" class="item-link">
+										<span class="image-placeholder arel-9-1470139142">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/12_mjolkbook_vol3-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/mjo%cc%88lk-books/" class="item-link">
+					Mjölk Books				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/mjo%cc%88lk-books/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2096 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2096" data-terms="furniture" style="position: absolute; left: 0px; top: 3726px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/focus-eyewear/" class="item-link">
+										<span class="image-placeholder arel-1-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/aw_whiteheat_campaign-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/focus-eyewear/" class="item-link">
+					Focus Eyewear				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/focus-eyewear/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2095 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-logo is-appended" data-portfolio-item-id="2095" data-terms="logo" style="position: absolute; left: 390px; top: 3726px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/tst/" class="item-link">
+										<span class="image-placeholder arel-2-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/f4b08d6cadca29a52ac3111cbf8be66e-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/tst/" class="item-link">
+					TST				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/tst/portfolio-category/logo/" data-term="logo">
+			Logo		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2094 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2094" data-terms="print" style="position: absolute; left: 780px; top: 3726px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/eskimo/" class="item-link">
+										<span class="image-placeholder arel-3-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/1f7c50a6ed2eaf4fde071ea4c85f2745-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/eskimo/" class="item-link">
+					Eskimo				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/eskimo/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2093 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2093" data-terms="furniture" style="position: absolute; left: 0px; top: 4140px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/bathroom/" class="item-link">
+										<span class="image-placeholder arel-4-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/Thermomat-Ever-2-Gambol_Ring-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/bathroom/" class="item-link">
+					Bathroom				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/bathroom/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-4 with-padding w4 animated-eye-icon post-2092 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print is-appended" data-portfolio-item-id="2092" data-terms="print" style="position: absolute; left: 390px; top: 4140px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/wood-vase/" class="item-link">
+										<span class="image-placeholder arel-5-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/duo-ceramic-wood-vase-Alessandro-Di-Prisco--655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/wood-vase/" class="item-link">
+					Wood Vase				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/wood-vase/portfolio-category/print/" data-term="print">
+			Print		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-1 with-padding w4 animated-eye-icon post-2090 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2090" data-terms="furniture" style="position: absolute; left: 780px; top: 4140px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/plywood-chair/" class="item-link">
+										<span class="image-placeholder arel-6-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/a7f80c4f15dfc8c9a62056886ea17fd0-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/plywood-chair/" class="item-link">
+					Plywood Chair				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/plywood-chair/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2089 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-people is-appended" data-portfolio-item-id="2089" data-terms="people" style="position: absolute; left: 0px; top: 4554px;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/o3-cabinets/" class="item-link">
+										<span class="image-placeholder arel-7-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/StokkeAustad-O3_large01-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/o3-cabinets/" class="item-link">
+					O3 Cabinets				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/o3-cabinets/portfolio-category/people/" data-term="people">
+			People		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2088 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="2088" data-terms="furniture" style="position: absolute; left: 390px; top: 4554px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/noor-chair/" class="item-link">
+										<span class="image-placeholder arel-8-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/121110_image_10-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/noor-chair/" class="item-link">
+					Noor Chair				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/noor-chair/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-2 with-padding w4 animated-eye-icon post-2087 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-logo is-appended" data-portfolio-item-id="2087" data-terms="logo" style="position: absolute; left: 780px; top: 4554px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/florian-series/" class="item-link">
+										<span class="image-placeholder arel-9-1470139151">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/f0c9dba189504e613a3f93fec1078d8c-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/florian-series/" class="item-link">
+					Florian Series				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/florian-series/portfolio-category/logo/" data-term="logo">
+			Logo		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-4 with-padding w4 animated-eye-icon post-2086 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-logo is-appended" data-portfolio-item-id="2086" data-terms="logo" style="position: absolute; left: 0px; top: 4968px; transform: scale(1); transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms;">
+
+
+							<div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/amnesty-international/" class="item-link">
+										<span class="image-placeholder arel-1-1470139162">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/cabinet-meeting-room_Amnesty_140611-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/amnesty-international/" class="item-link">
+					Amnesty International				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/amnesty-international/portfolio-category/logo/" data-term="logo">
+			Logo		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="portfolio-item portfolio-item-type-4 with-padding w4 animated-eye-icon post-558 type-portfolio status-publish has-post-thumbnail hentry portfolio_category-furniture is-appended" data-portfolio-item-id="558" data-terms="furniture" style="position: absolute; left: 390px; top: 4968px;">
+
+
+							<div class="item-box wow fadeIn animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+								<div class="photo do-lazy-load-on-shown loading-finished">
+									<a href="http://demo.kaliumtheme.com/freelancer/portfolio/altruchair/" class="item-link">
+										<span class="image-placeholder arel-2-1470139162">
+		<img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="./Kalium Freelancer – Creative Theme for Professionals_files/ab0adf1883df76370001b3e52b300337-655x545.jpg">
+	</span>
+
+										<span class="on-hover opacity-no distanced">
+					<i class="icon icon-basic-eye"></i>
+				</span>
+									</a>
+								</div>
+
+								<div class="info">
+									<h3>
+				<a href="http://demo.kaliumtheme.com/freelancer/portfolio/altruchair/" class="item-link">
+					ALTRUchair				</a>
+			</h3>
+
+									<p class="terms"><a href="http://demo.kaliumtheme.com/freelancer/portfolio/altruchair/portfolio-category/furniture/" data-term="furniture">
+			Furniture		</a></p>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+
+
+					<script>
+						var portfolioContainers = portfolioContainers || [];
+						portfolioContainers.push({
+							"instanceId": "portfolio-1",
+							"instanceAlias": "portfolio",
+							"baseQuery": {
+								"post_type": "portfolio",
+								"post_status": "publish",
+								"posts_per_page": 9,
+								"paged": 0,
+								"meta_query": [{
+									"key": "_thumbnail_id",
+									"compare": "EXISTS"
+								}]
+							},
+							"vcAttributes": [],
+							"postId": 3283,
+							"count": 38,
+							"countByTerms": {
+								"furniture": 13,
+								"logo": 5,
+								"people": 5,
+								"print": 15
+							},
+							"lightboxData": null,
+							"filterPushState": false
+						});
+					</script>
+					<div class="portfolio-endless-pagination endless-pagination endless-pagination-alignment-center" style="visibility: hidden; opacity: 0; height: 0px;">
+						<div class="show-more type-1 is-finished" data-endless="true">
+							<div class="button">
+								<a href="http://demo.kaliumtheme.com/freelancer/#" class="btn btn-white">
+					Show More					
+					<span class="loading">
+					<i class="fa fa-circle-o-notch fa-spin"></i>					</span>
+					
+					<span class="finished">
+						No more portfolio items to show					</span>
+				</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<footer id="footer" class="main-footer footer-bottom-vertical">
+		<div class="container"></div>
+	</footer>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/jquery.cycle2.renamed.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/jquery.cycle2.scrollVert.renamed.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/jquery.cycle2.carousel.renamed.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/rotatingtweets_v2.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/bootstrap.min.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/joinable.min.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/wp-embed.min.js"></script>
+	<script src="./Kalium Freelancer – Creative Theme for Professionals_files/custom.min.js"></script>
+	<style>
+		.arel-1-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-2-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-3-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-4-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-5-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-6-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-7-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-8-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-9-1470139135 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-1-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-2-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-3-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-4-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-5-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style class="is-appended">
+		.portfolio-holder .post-2100 .item-box .on-hover {
+			background-color: #333333 !important;
+		}
+	</style>
+	<style>
+		.arel-6-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-7-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-8-1470139142 {
+			padding-top: 62.50000000% !important;
+		}
+	</style>
+	<style>
+		.arel-9-1470139142 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style class="is-appended">
+		.portfolio-holder .post-2096 .item-box .on-hover {
+			background-color: #dd3333 !important;
+		}
+	</style>
+	<style>
+		.arel-1-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-2-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-3-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-4-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-5-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-6-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-7-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-8-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-9-1470139151 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-1-1470139162 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+	<style>
+		.arel-2-1470139162 {
+			padding-top: 83.20610687% !important;
+		}
+	</style>
+</body>
+
+</html>

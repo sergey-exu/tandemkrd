@@ -128,7 +128,7 @@ AppAsset::register($this);
                     'label'=>Yii::t('backend', 'Pages'),
                     'icon'=>'<i class="fa fa-files-o"></i>',
                     'url'=>['/page/default/index'],
-                  ],
+                  ],/*
                   [
                     'label'=>Yii::t('backend', 'News'),
                     'icon'=>'<i class="fa fa-list"></i>',
@@ -138,6 +138,11 @@ AppAsset::register($this);
                     'label'=>Yii::t('backend', 'Banners'),
                     'icon'=>'<i class="fa fa-cube"></i>',
                     'url'=>['/banner/default/index'],
+                  ],*/
+                  [
+                    'label'=>'Продукция',
+                    'icon'=>'<i class="fa fa-cube"></i>',
+                    'url'=>['/product/default/index'],
                   ],
                   [
                     'label'=>Yii::t('backend', 'Menu'),

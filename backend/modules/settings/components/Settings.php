@@ -29,7 +29,8 @@ class Settings extends Component
      * you should only assign it with a cache object.
      * Set this property to null if you do not want to cache the settings.
      */
-    public $cache = 'cache';
+    //public $cache = 'cache';
+    public $cache = false;
 
     /**
      * @var Cache|string the front cache object or the application component ID of the front cache object.

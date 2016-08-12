@@ -18,11 +18,25 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'css/style.css',
+        'css/bootstrap.css',
+        'css/main.css',
+        'css/font-awesome.css',
+        'css/flaticon.css',
+        'css/linea_iconfont.css',
+        'css/style(1).css',
+        'css/custom-skin.css'
     ];
     public $js = [
-        'js/scripts.js',
-        //'js/scroll.js' //#ancor_scroll
+        // 'js/jquery.js',
+        'js/jquery-migrate.min.js',
+        'js/jquery.cycle2.renamed.js',
+        'js/jquery.cycle2.scrollVert.renamed.js',
+        'js/jquery.cycle2.carousel.renamed.js',
+        'js/bootstrap.min.js',
+        'js/joinable.min.js',
+        'js/wp-embed.min.js',
+        'js/custom.min.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

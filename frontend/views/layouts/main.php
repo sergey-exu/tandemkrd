@@ -1,199 +1,146 @@
-<?php
-use yii\helpers\Html;
+<?php use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-
 use yii\widgets\Menu;
-
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use frontend\widgets\Alert;
 use frontend\widgets\GoogleAnalytics;
-
 /* @var $this \yii\web\View */
 /* @var $content string */
-
 AppAsset::register($this);
-
-use frontend\assets\FancyBox;
-FancyBox::register($this);
-
-?>
+// use frontend\assets\FancyBox;
+// FancyBox::register($this);
+?> 
 <?php $this->beginPage() ?>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="<?= Yii::$app->language ?>">
-<head>
-    <meta charset="<?= Yii::$app->charset ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <?php $this->head() ?>
-</head>
-<body>
-    <?php $this->beginBody() ?>
-    <div class="wrap">
-        <?php
-            NavBar::begin([
-                'brandLabel' => 'My Company',
-                'brandUrl' => Yii::$app->homeUrl,
-                'options' => [
-                    'class' => 'navbar-inverse navbar-fixed-top',
-                ],
-            ]);
-            
-            if ($menuItems = \backend\modules\menu\models\Menu::find()->where(['name' => 'main'])->one()) {
-                $menuItems = json_decode($menuItems['data'], true);
-                
-                echo Nav::widget([
-                    'options' => ['class' => 'navbar-nav navbar-right'],
-                    'items' => $menuItems,
-                ]);    
-            } else Yii::error('Не найдены настройки основного меню (mane "main")');
-                
-            NavBar::end();
-        ?>
-
-        <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
-        <?= $content ?>
-        
-        
-        
-        
-        
-        <br/><Br/><br/>
-        
-        
-        
-    <?php 
-    
-    /*
-    echo Nav::widget([
-        'items' => [
-            [
-                'label' => 'Home',
-                'url' => ['site/index'],
-                'linkOptions' => [],
-            ],
-            [
-                'label' => 'Dropdown',
-                'items' => [
-                     ['label' => 'Level 1 - Dropdown A', 'url' => '#'],
-                     '<li class="divider"></li>',
-                     '<li class="dropdown-header">Dropdown Header</li>',
-                     ['label' => 'Level 1 - Dropdown B', 'url' => '#'],
-                ],
-            ],
-            [
-                'label' => 'Login',
-                'url' => ['site/login'],
-                //'visible' => Yii::$app->user->isGuest
-            ],
-        ],
-        //'options' => ['class' =>'nav-pills'], // set this to nav-tab to get tab-styled navigation
-    ]);
-    
-    */
-    
-    
-    /*
-    echo Menu::widget([
-        'items' => [
-            ['label' => 'Home', 'url' => ['site/index']],
-            // 'Products' menu item will be selected as long as the route is 'product/index'
-            ['label' => 'Products', 'url' => ['product/index'], 'items' => [
-                ['label' => 'New Arrivals', 'url' => ['product/index', 'tag' => 'new']],
-                ['label' => 'Most Popular'],
-            ]],
-            //['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
-        ],
-    ]);
-    */
-    
-    
-    /*
-    
-    $menu_data = \backend\modules\menu\models\Menu::find()->where(['name' => 'main'])->one();
-    
-    $menuObj = json_decode($menu_data['data']);
-    
-    foreach ($menuObj as $value) {
-        echo '<li>' . $value->id .' - '. $value->name;
-            if(isset($value->children)) {
-                echo '<ol>';
-                    foreach ($value->children as $child) {
-                        echo '<li>' . $child->id .' - '. $child->name . '</li>';
-                    }
-                echo '</ol>';
-            }
-        echo '</li>';
-    }
-    */
-    
-    /*
-    
-    foreach ($menuObj as $value) {
-        echo '<li>';
-            
-            echo isset($value->href) ? "1" : "2";
-            
-            
-        echo '</li>';
-    }
-    
-    */
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ?>
-        
-        
-         <?php /* foreach(\backend\modules\banner\models\Banner::find()->orderBy('id ASC')->all() as $data): ?>
-	        <div class="swiper-slide">
-	            <?php if ($data->link) :?>
-                    <a href="<?= $data->link ?>" target="_blank"><img src="/images/<?= $data->img ?>" class="bn_border" alt="<?= $data->name ?>" /></a>
-                <?php else :?>    
-                    <img src="/images/<?= $data->img ?>" class="bn_border"  alt="<?= $data->name ?>" />
-                <?php endif; ?>
-            </div>
-        <?php endforeach; */?>
-        
-        
-        
-        
-        
-        
-        
-        
-        
+<head> 
+    <meta charset="<?= Yii::$app->charset ?>"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <?=Html::csrfMetaTags() ?> 
+    <title>Тандем - <?=Html::encode($this->title) ?></title>
+    <!-- Favicons --> 
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+<?php $this->head() ?> 
+</head> 
+<body class="home page page-id-3283 page-template page-template-portfolio page-template-portfolio-php has-page-borders body-lg-skin-kalium-default wpb-js-composer js-comp-ver-4.12 vc_responsive">
+     <?php $this->beginBody() ?>
+    <div class="page-border" data-wow-duration="1s" data-wow-delay="0.2s"> 
+         <div class="top-border"></div>
+         <div class="right-border"></div>
+         <div class="bottom-border"></div>
+         <div class="left-border"></div>
+     </div>
+     <!--Мобильное меню-->
+    <div class="mobile-menu-wrapper">
+          <div class="mobile-menu-container ps-container ps-theme-default" data-ps-id="9e94c223-7bfb-252d-abfc-50631f920b1d">
+              <?php
+                if ($menuItems = \backend\modules\menu\models\Menu::find()->where(['name' => 'mobile'])->one()) {
+                    $menuItems = json_decode($menuItems['data'], true);
+                        echo Menu::widget([
+                                    'items' => $menuItems,
+                                    'options' => ['id'=>'menu-main-menu-1','class' => 'menu'],
+                            ]);
+                        } else Yii::error('Не найдены настройки основного меню (mane "main")');
+                    ?>
+               
+                <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
+                    <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
+                    <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                </div>
         </div>
     </div>
-    
-    
-    
-
-    
-
-    <footer class="footer">
+      <!-- конец Мобильное меню-->
+    <div class="mobile-menu-overlay"></div>
+    <!--Основное меню-->
+    <div class="top-menu-container menu-type-top-menu menu-skin-dark">
         <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
+            <div class="row row-table row-table-middle">
+                <div class="col-sm-4">
+                    <nav class="top-menu menu-row-items-1">
+                        <?php
+                        if ($menuItems = \backend\modules\menu\models\Menu::find()->where(['name' => 'main'])->one()) {
+                            $menuItems = json_decode($menuItems['data'], true);
+                                echo Menu::widget([
+                                            'items' => $menuItems,
+                                            'options' => ['id'=>'menu-main-menu-1','class' => 'menu'],
+                                    ]);
+                                } else Yii::error('Не найдены настройки основного меню (mane "main")');
+                            ?>
+                    </nav>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row blog-sidebar">
+                        <div class="col-sm-6">
+                            <div class="sidebar-box-holder wp-widget rotatingtweets_widget-4 widget_rotatingtweets_widget">
+                                <h3 class="sidebar-entry-title">О нас</h3>
+                                <div class="textwidget">
+                                    Оптовая продажа упаковочных материалов для пищевых продуктов от ведущих отечетственных производителей
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="sidebar-box-holder wp-widget text-3 widget_text">
+                                <h3 class="sidebar-entry-title">Контакты</h3>
+                                <div class="textwidget">
+                                    <ul class="fa-ul" itemscope itemtype="http://schema.org/Organization">
+                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> Адрес: Краснодар, проезд Майский, 5</span></li>
+                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i> Телефон:<span itemprop="telephone"><?=Html::decode(Yii::$app->settings->get('contact.mainphone'));?></span></li>
+                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i> Email: <a href="mailto:test@mail.ru"><span itemprop="email"><?=Html::decode(Yii::$app->settings->get('contact.mainemail'));?></span></a></li>
+                                    </ul>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <!-- конец Основное меню-->
+    <div class="wrapper" id="main-wrapper" style="margin-top: 0px;">
+         <header class="main-header menu-type-top-menu" style="top: 0px;">
+             <div class="container">
+                 <div class="logo-and-menu-container">
+                     <div class="logo-column">
+                         <a href="/" class="header-logo">
+                             <img src="/storage/img/logo_dark.png" alt="Тандем">
+                         </a>
+                     </div>
+                     <div class="menu-column">
+                         <a class="menu-bar menu-skin-dark" href="/">
+                             <span class="ham"></span>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </header>
+         <div class="container">
+            <?= $content ?>     
+         </div>
+    </div>
+    <!--Футер-->
+    <footer id="footer" class="main-footer footer-bottom-vertical">
+        <div class="container"></div> 
     </footer>
-
-    <?php $this->endBody() ?>
-    
-    <?= GoogleAnalytics::widget(['trackingId' => Yii::$app->settings->get('analitycs.gaTrackingId')]); ?>
+    <script>
+        var headerOptions = {
+            "stickyMenu": false,
+            "currentMenuSkin": "menu-skin-dark"
+        };
+    </script>
+<?php $this->endBody() ?>
+<?php /*= GoogleAnalytics::widget(['trackingId'=> Yii::$app->settings->get('analitycs.gaTrackingId')]); */?> 
 </body>
 </html>
 <?php $this->endPage() ?>

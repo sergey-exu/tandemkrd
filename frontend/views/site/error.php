@@ -9,19 +9,17 @@ use yii\helpers\Html;
 
 $this->title = $name;
 ?>
-<div class="site-error">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <div class="alert alert-danger">
-        <?= nl2br(Html::encode($message)) ?>
-    </div>
-
-    <p>
-        The above error occurred while the Web server was processing your request.
-    </p>
-    <p>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
-
-</div>
+    <div class="page-container">
+		<div class="error-holder">
+			<div class="box">
+				<p class="error-type">
+					<span class="flashing-num-1">4</span>
+					<span class="flashing-num-1 del-1">0</span>
+					<span class="flashing-num-1 del-2">4</span>
+				</p>
+			</div>
+			<p class="error-text"><?= Html::encode($this->title) ?></p>
+			<p><?= nl2br(Html::encode($message)) ?></p>
+			<p>вернуться  <a href="/">на главную</a></p>
+		</div>
+	</div>

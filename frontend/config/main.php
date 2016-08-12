@@ -29,9 +29,11 @@ return [
             'suffix' => '/',
             'rules' => [
                 '' => 'page/index',
-                'news/' => 'news/index',
-                'news/<alias:[\w\-]+>' => 'news/view',
+                //'news/' => 'news/index',
+                //'news/<alias:[\w\-]+>' => 'news/view',//grup - помоему так там или ты поменял
+                'contacts/' => 'site/contact',
                 '<alias:[\w\-]+>' => 'page/view',
+                '<alias:[\w\-]+>/<group:[\w\-]+>' => 'page/view',
             ],
         ],
     ],

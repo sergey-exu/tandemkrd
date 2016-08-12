@@ -16,12 +16,13 @@ return [
         'auth' => ['class' => 'backend\modules\auth\Module'],
         'user' => ['class' => 'backend\modules\user\Module'],
         'log' => ['class' => 'backend\modules\log\Module'],
-        'news' => ['class' => 'backend\modules\news\Module'],
+        //'news' => ['class' => 'backend\modules\news\Module'],
         'page' => ['class' => 'backend\modules\page\Module'],
-        'banner' => ['class' => 'backend\modules\banner\Module'],
+        //'banner' => ['class' => 'backend\modules\banner\Module'],
         'dashboard' => ['class' => 'backend\modules\dashboard\Module'],
         'settings' => ['class' => 'backend\modules\settings\Module'],
         'menu' => ['class' => 'backend\modules\menu\Module'],
+        'product' => ['class' => 'backend\modules\product\Module'],
     ],
     'components' => [
         'user' => [
