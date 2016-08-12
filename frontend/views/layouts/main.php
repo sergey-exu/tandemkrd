@@ -1,16 +1,10 @@
 <?php use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
+//use yii\bootstrap\Nav;
+//use yii\bootstrap\NavBar;
 use yii\widgets\Menu;
-use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
-use frontend\widgets\Alert;
 use frontend\widgets\GoogleAnalytics;
-/* @var $this \yii\web\View */
-/* @var $content string */
 AppAsset::register($this);
-// use frontend\assets\FancyBox;
-// FancyBox::register($this);
 ?> 
 <?php $this->beginPage() ?>
 <!DOCTYPE html> 
@@ -21,12 +15,6 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <?=Html::csrfMetaTags() ?> 
     <title>Тандем - <?=Html::encode($this->title) ?></title>
-    <!-- Favicons --> 
-    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
