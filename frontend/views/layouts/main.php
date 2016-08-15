@@ -18,6 +18,8 @@ AppAsset::register($this);
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 <?php $this->head() ?> 
+    <meta name="google-site-verification" content="GmKIV7pTg3FVDKkVYz7MdAzbBlx_eebUj6qLUZ2FUPw" />
+    <meta name="yandex-verification" content="fb1eb7c14f9dd86a" />
 </head> 
 <body class="home page page-id-3283 page-template page-template-portfolio page-template-portfolio-php has-page-borders body-lg-skin-kalium-default wpb-js-composer js-comp-ver-4.12 vc_responsive">
      <?php $this->beginBody() ?>
