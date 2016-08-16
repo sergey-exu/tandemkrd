@@ -180,7 +180,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Упаковоч�
          <div class="row">
              <div class="col-md-12 text-center padding-top-50 padding-bottom-50">
 
-                <hr class="padding-bottom-50" />
+                <hr style="width: 60%;" class="padding-bottom-50">
             
                 <p><?=Html::decode(Yii::$app->settings->get('contact.address'));?></p>
                 <h2><?=Html::decode(Yii::$app->settings->get('contact.mainphone'));?></h2>
