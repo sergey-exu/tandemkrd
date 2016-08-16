@@ -39,7 +39,8 @@ class AppAsset extends AssetBundle
         'js/custom.min.js'
     ];
     public $depends = [
-        'yii\web\YiiAsset',
+        //'yii\web\YiiAsset',
+        'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset',
         'common\assets\FontAwesome',
     ];
