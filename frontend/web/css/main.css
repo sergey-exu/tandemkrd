@@ -3227,9 +3227,6 @@ p {
     }
 }
 
-hr {
-    border-color: #e0e0e0
-}
 
 ::selection {
     background: #00b19e;
@@ -3900,6 +3897,9 @@ lesshat-selector {
     top: 8px
 }
 .padding-bottom-50 {padding-bottom:50px !important;}
+.padding-top-50 {padding-top:50px !important;}
+.padding-top-100 {padding-top:100px !important;}
+.padding-100 {padding:100px !important;}
 
 .menu-bar .ham:after,
 .menu-bar .ham:before {

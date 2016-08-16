@@ -84,9 +84,9 @@ AppAsset::register($this);
                                 <h3 class="sidebar-entry-title">Контакты</h3>
                                 <div class="textwidget">
                                     <ul class="fa-ul" itemscope itemtype="http://schema.org/Organization">
-                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> Адрес: Краснодар, проезд Майский, 5</span></li>
+                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> Адрес: <?=Html::decode(Yii::$app->settings->get('contact.address'));?></span></li>
                                         <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i> Телефон:<span itemprop="telephone"><?=Html::decode(Yii::$app->settings->get('contact.mainphone'));?></span></li>
-                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i> Email: <a href="mailto:test@mail.ru"><span itemprop="email"><?=Html::decode(Yii::$app->settings->get('contact.mainemail'));?></span></a></li>
+                                        <li class="no-padding"><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i> Email: <a href="mailto:<?=Html::decode(Yii::$app->settings->get('contact.mainemail'));?>"><span itemprop="email"><?=Html::decode(Yii::$app->settings->get('contact.mainemail'));?></span></a></li>
                                     </ul>    
                                 </div>
                             </div>

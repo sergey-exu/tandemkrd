@@ -143,6 +143,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Упаковоч�
                      </div>
                  </div>
              </div>
+             
+             
              <script>
                  var portfolioContainers = portfolioContainers || [];
                  portfolioContainers.push({
@@ -174,5 +176,18 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Упаковоч�
                  );
              </script>
          </div>
+         
+         <div class="row">
+             <div class="col-md-12 text-center padding-top-50 padding-bottom-50">
+
+                <hr class="padding-bottom-50" />
+            
+                <p><?=Html::decode(Yii::$app->settings->get('contact.address'));?></p>
+                <h2><?=Html::decode(Yii::$app->settings->get('contact.mainphone'));?></h2>
+                <p><a href="mailto:<?=Html::decode(Yii::$app->settings->get('contact.mainemail'));?>"><?=Html::decode(Yii::$app->settings->get('contact.mainemail'));?></a></p>
+  
+             </div>
+         </div>
+         
      </div>
  </div>
