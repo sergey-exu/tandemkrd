@@ -72,6 +72,11 @@ class PageController extends Controller
                 $data = Product::find()->where(['category'=>'Яичная упаковка'])->all();
                 $category = Product::find()->select('group')->distinct()->where(['category'=>'Яичная упаковка'])->all();
                 break;
+                
+            case 'heat-insulation':
+                $data = Product::find()->where(['category'=>'Теплоизоляция'])->all();
+                $category = Product::find()->select('group')->distinct()->where(['category'=>'Теплоизоляция'])->all();
+                break;
             
         }
         
