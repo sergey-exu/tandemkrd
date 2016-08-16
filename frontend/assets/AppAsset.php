@@ -19,12 +19,12 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/style.css',
-        'css/bootstrap.css',
+        //'css/bootstrap.css',
         'css/main.css',
-        'css/font-awesome.css',
+        //'css/font-awesome.css',
         'css/flaticon.css',
         'css/linea_iconfont.css',
-        'css/style(1).css',
+        //'css/style(1).css',
         'css/custom-skin.css'
     ];
     public $js = [
@@ -33,7 +33,7 @@ class AppAsset extends AssetBundle
         'js/jquery.cycle2.renamed.js',
         'js/jquery.cycle2.scrollVert.renamed.js',
         'js/jquery.cycle2.carousel.renamed.js',
-        'js/bootstrap.min.js',
+        //'js/bootstrap.min.js',
         'js/joinable.min.js',
         'js/wp-embed.min.js',
         'js/custom.min.js'
