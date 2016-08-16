@@ -130,6 +130,18 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Упаковоч�
                          </div>
                      </div>
                  </div>
+                 <div class="portfolio-item portfolio-item-type-4 with-padding w4 animated-eye-icon post-2122 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-print" data-portfolio-item-id="2122" data-terms="print" style="position: absolute; left: 0px; top: 828px;">
+                     <div class="item-box wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                         <div class="photo do-lazy-load-on-shown loading-finished">
+                             <a href="/heat-insulation/" class="item-link">
+                                 <span class="image-placeholder arel-main"> <img width="655" height="545" class="visibility-hidden img-loaded" alt="" src="/storage/img/heat-insulation.jpg"> </span> <span class="on-hover opacity-no distanced"> <i class="icon icon-basic-eye"></i> </span>                                    </a>
+                         </div>
+                         <div class="info">
+                             <h3> <a href="/heat-insulation/" class="item-link"> Теплоизоляция </a> </h3>
+                             <small>пенополистирол ...</small>
+                         </div>
+                     </div>
+                 </div>
              </div>
              <script>
                  var portfolioContainers = portfolioContainers || [];
